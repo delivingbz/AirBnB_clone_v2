@@ -12,7 +12,7 @@ import os
 def do_deploy(archive_path):
     """ Uncompresses and deploy the archive into the servers """
 
-    env.hosts = ['3.238.99.98', '34.207.154.242']
+    env.hosts = ['100.25.46.250', '18.209.180.119']
     if os.path.exists(archive_path) is False:
         return False
 
